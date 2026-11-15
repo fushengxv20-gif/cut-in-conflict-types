@@ -1,0 +1,374 @@
+{
+  "N": 1003,
+  "missing_counts": [
+    14,
+    60,
+    0,
+    0
+  ],
+  "BLRT_3_vs_4": {
+    "observed": 21.23689349275537,
+    "B": 499,
+    "exceedances": 1,
+    "p_plus_one": 0.004,
+    "null_quantiles": [
+      5.386724852391444,
+      10.193072493088948,
+      16.49139682794857,
+      18.45675610608896
+    ]
+  },
+  "missing_pattern_gof3": {
+    "observed": 98.24259164208544,
+    "B": 499,
+    "exceedances": 0,
+    "p_plus_one": 0.002,
+    "null_quantiles": [
+      38.25065630855608,
+      51.83432424570368,
+      67.16673775717624,
+      70.26533834747212
+    ]
+  },
+  "missing_pattern_gof4": {
+    "observed": 77.00569814935113,
+    "B": 199,
+    "exceedances": 0,
+    "p_plus_one": 0.005,
+    "null_quantiles": [
+      29.3241762418232,
+      46.98325799573027,
+      62.72149590583541,
+      66.5443872976301
+    ]
+  },
+  "missing_pattern_gof_note": "Conditional simulation fixes observed missingness masks and assumes simulated indicators independent of those masks. These checks can reflect the missingness mechanism as well as model misfit. Complete-case refits are separately calibrated.",
+  "bootstrap3": {
+    "B": 300,
+    "profile_squared_distance_quantiles": [
+      0.034213054397484115,
+      0.10049937720952935,
+      0.6548933104120466
+    ],
+    "classes": [
+      {
+        "class": "C1",
+        "original_model_index": 0,
+        "share": 0.1226741108326336,
+        "share_bootstrap_percentiles": [
+          0.049283221884055595,
+          0.11554780039432999,
+          0.19658477678533548
+        ],
+        "modal_n": 111,
+        "mean_max_posterior": 0.8113653724387794,
+        "injury": [
+          0.562170748018137,
+          0.2125774553421141,
+          0.118591249461195,
+          0.1066605471785553
+        ],
+        "penalty": [
+          0.421265493273732,
+          0.2370259411349923,
+          0.3417085655912798
+        ],
+        "collision": 0.8116621106742539,
+        "emotion": 0.4911800590688642,
+        "no_injury_bootstrap_percentiles": [
+          0.3230867687455449,
+          0.5583747617096848,
+          0.6863862955010831
+        ],
+        "no_injury_over_90_bootstrap_fraction": 0.0
+      },
+      {
+        "class": "C2",
+        "original_model_index": 1,
+        "share": 0.4630319851502415,
+        "share_bootstrap_percentiles": [
+          0.37350431126261474,
+          0.468489567867169,
+          0.5508887171103458
+        ],
+        "modal_n": 477,
+        "mean_max_posterior": 0.8927530982319393,
+        "injury": [
+          0.03900368771751794,
+          0.9109367066823387,
+          0.04063536574186906,
+          0.009424239858272735
+        ],
+        "penalty": [
+          0.4380254544328182,
+          0.4974245579391436,
+          0.06454998762803706
+        ],
+        "collision": 0.1472709533227812,
+        "emotion": 1.0,
+        "no_injury_bootstrap_percentiles": [
+          1.9454758452646447e-38,
+          0.0382027425551092,
+          0.11883677478176065
+        ],
+        "no_injury_over_90_bootstrap_fraction": 0.0
+      },
+      {
+        "class": "C3",
+        "original_model_index": 2,
+        "share": 0.4142939040171249,
+        "share_bootstrap_percentiles": [
+          0.3282574897623246,
+          0.41686982948186535,
+          0.524927459165721
+        ],
+        "modal_n": 415,
+        "mean_max_posterior": 0.8687805998918164,
+        "injury": [
+          0.6016971050884891,
+          0.08818503919667749,
+          0.1859586641881288,
+          0.1241591915267161
+        ],
+        "penalty": [
+          0.06424781720272242,
+          0.9357521749822635,
+          7.815016727904805e-09
+        ],
+        "collision": 0.4493841064107392,
+        "emotion": 0.9653611676145152,
+        "no_injury_bootstrap_percentiles": [
+          0.4740493036598626,
+          0.6011600858546248,
+          0.7312942062561861
+        ],
+        "no_injury_over_90_bootstrap_fraction": 0.0
+      }
+    ]
+  },
+  "bootstrap4": {
+    "B": 300,
+    "profile_squared_distance_quantiles": [
+      0.1371790833866534,
+      1.3656297484112185,
+      3.4945527061123145
+    ],
+    "classes": [
+      {
+        "class": "C1",
+        "original_model_index": 3,
+        "share": 0.06729386075748867,
+        "share_bootstrap_percentiles": [
+          0.01134498253209424,
+          0.035584409134562865,
+          0.10414604929827707
+        ],
+        "modal_n": 42,
+        "mean_max_posterior": 0.9751437026827393,
+        "injury": [
+          0.3404015060262909,
+          0.2849300662291875,
+          0.191083664342235,
+          0.1835847634022861
+        ],
+        "penalty": [
+          0.3257353082172142,
+          0.2111277249174572,
+          0.463136966865331
+        ],
+        "collision": 0.8446451988570297,
+        "emotion": 0.2557010038732939,
+        "no_injury_bootstrap_percentiles": [
+          1e-300,
+          0.18093708838296704,
+          0.6294435391563067
+        ],
+        "no_injury_over_90_bootstrap_fraction": 0.0
+      },
+      {
+        "class": "C2",
+        "original_model_index": 0,
+        "share": 0.4472008364521057,
+        "share_bootstrap_percentiles": [
+          0.3095302463319081,
+          0.4529219001411777,
+          0.545120037159049
+        ],
+        "modal_n": 484,
+        "mean_max_posterior": 0.8869304479126782,
+        "injury": [
+          6.391043160440151e-31,
+          0.9344886350708871,
+          0.0498122441475979,
+          0.01569912078151415
+        ],
+        "penalty": [
+          0.4579565763195197,
+          0.473681897466619,
+          0.06836152621385863
+        ],
+        "collision": 0.1560037049022924,
+        "emotion": 1.0,
+        "no_injury_bootstrap_percentiles": [
+          2.43887604800285e-73,
+          0.05169368902513087,
+          0.122054255016541
+        ],
+        "no_injury_over_90_bootstrap_fraction": 0.0
+      },
+      {
+        "class": "C3",
+        "original_model_index": 2,
+        "share": 0.1668072074999439,
+        "share_bootstrap_percentiles": [
+          0.06641570316732613,
+          0.1329884815989768,
+          0.3491593144045793
+        ],
+        "modal_n": 100,
+        "mean_max_posterior": 0.7915088557941508,
+        "injury": [
+          1.0,
+          4.733511044831636e-18,
+          6.707589453743927e-84,
+          1.616652895661637e-55
+        ],
+        "penalty": [
+          0.3218730145360701,
+          0.6373138055096828,
+          0.04081317995425075
+        ],
+        "collision": 0.5761385332929679,
+        "emotion": 0.8400372602608447,
+        "no_injury_bootstrap_percentiles": [
+          0.45913648326912865,
+          0.7243400471855597,
+          1.0
+        ],
+        "no_injury_over_90_bootstrap_fraction": 0.23333333333333334
+      },
+      {
+        "class": "C4",
+        "original_model_index": 1,
+        "share": 0.3186980952904617,
+        "share_bootstrap_percentiles": [
+          0.16034682906139783,
+          0.36534796318814267,
+          0.4761252231877718
+        ],
+        "modal_n": 377,
+        "mean_max_posterior": 0.7087198363617542,
+        "injury": [
+          0.4600673198635274,
+          0.1482308754362825,
+          0.236290847617495,
+          0.1554109570826913
+        ],
+        "penalty": [
+          4.280949528657466e-58,
+          0.9879535304372792,
+          0.01204646956272031
+        ],
+        "collision": 0.4117680770230306,
+        "emotion": 1.0,
+        "no_injury_bootstrap_percentiles": [
+          2.332084545117841e-12,
+          0.5335763916601495,
+          0.6906605382729152
+        ],
+        "no_injury_over_90_bootstrap_fraction": 0.0
+      }
+    ]
+  },
+  "bootstrap_BIC4_selected": 0,
+  "bootstrap_BIC_difference_quantiles": [
+    7.752737361547108,
+    25.712530957385226,
+    38.54703615841974
+  ],
+  "cv": {
+    "repeats": 5,
+    "folds": 10,
+    "delta_definition": "held-out LL4 minus held-out LL3; positive favors four",
+    "repeat_totals": [
+      -21.27002174706269,
+      -28.85967036858327,
+      -18.681554669992657,
+      -80.7608373953853,
+      -17.674076850110662
+    ],
+    "positive_folds": 27,
+    "note": "Folds and repeats share observations; no independent-sample t-test is applied.",
+    "average_delta_per_case": -0.0333491846522701
+  },
+  "complete_case": {
+    "N": 931,
+    "BIC3": 5188.831602178069,
+    "BIC4": 5221.890551162815,
+    "AIC3": 5077.597638800697,
+    "AIC4": 5071.966513567227,
+    "BLRT": {
+      "observed": 21.631125233469902,
+      "B": 199,
+      "exceedances": 1,
+      "p_plus_one": 0.01,
+      "null_quantiles": [
+        5.071401656597163,
+        9.970218567177653,
+        16.561975092047486,
+        18.561160474444335
+      ]
+    },
+    "gof3": {
+      "observed": 56.67168389156389,
+      "B": 199,
+      "exceedances": 0,
+      "p_plus_one": 0.005,
+      "null_quantiles": [
+        15.398214741153488,
+        27.491156803147646,
+        38.92024138314906,
+        41.41296193616953
+      ]
+    },
+    "gof4": {
+      "observed": 35.04055865809691,
+      "B": 199,
+      "exceedances": 2,
+      "p_plus_one": 0.015,
+      "null_quantiles": [
+        11.931948796543,
+        20.511304136059888,
+        31.479606829109766,
+        32.80528043277547
+      ]
+    }
+  },
+  "diagnostics": {
+    "parametric": {
+      "fits": 998,
+      "best_at_100000_iteration_limit": 0,
+      "best_replicated_fewer_than_twice": 4,
+      "max_best_iterations": 18034
+    },
+    "nonparametric": {
+      "fits": 600,
+      "best_at_100000_iteration_limit": 0,
+      "best_replicated_fewer_than_twice": 2,
+      "max_best_iterations": 8633
+    },
+    "cv": {
+      "fits": 100,
+      "best_at_100000_iteration_limit": 0,
+      "best_replicated_fewer_than_twice": 0,
+      "max_best_iterations": 6173
+    },
+    "gof4": {
+      "fits": 199,
+      "best_at_100000_iteration_limit": 0,
+      "best_replicated_fewer_than_twice": 1,
+      "max_best_iterations": 13488
+    }
+  },
+  "simulation_engine_poLCA_max_abs_LL_difference": 3.2554353310843e-06
+}
