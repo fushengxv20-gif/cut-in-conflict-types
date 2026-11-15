@@ -1,0 +1,43 @@
+{
+  "pairs": [
+    {
+      "pair": "injury x penalty",
+      "n": 931,
+      "discrepancy": 11.576000509556,
+      "max_abs": 1.894713378912
+    },
+    {
+      "pair": "injury x collision",
+      "n": 989,
+      "discrepancy": 2.136808938879,
+      "max_abs": 0.9546312410827
+    },
+    {
+      "pair": "injury x emotion",
+      "n": 989,
+      "discrepancy": 0.4319439013236,
+      "max_abs": 0.5723065232419
+    },
+    {
+      "pair": "penalty x collision",
+      "n": 943,
+      "discrepancy": 0.4716812221013,
+      "max_abs": 0.5374751242337
+    },
+    {
+      "pair": "penalty x emotion",
+      "n": 943,
+      "discrepancy": 0.9364879835852,
+      "max_abs": 0.7235541797177
+    },
+    {
+      "pair": "collision x emotion",
+      "n": 1003,
+      "discrepancy": 0.005875606977248,
+      "max_abs": 0.06383720253005
+    }
+  ],
+  "selected_K": 3,
+  "no_emotion_selected_K": 2,
+  "no_emotion_candidate_note": "K=1-3 only. K>=4 has more parameters than the 23 independent complete response-pattern probabilities and is excluded from class enumeration."
+}

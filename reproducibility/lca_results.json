@@ -1,0 +1,272 @@
+{
+  "selected_K": 3,
+  "fit": [
+    {
+      "K": 1,
+      "LL": -2831.729377458906,
+      "q": 7,
+      "AIC": 5677.458754917811,
+      "BIC": 5711.834010433545,
+      "aBIC": 5689.601577848828,
+      "best_replicates": 0,
+      "starts": 0,
+      "iterations": 1,
+      "min_class": 1,
+      "entropy": null
+    },
+    {
+      "K": 2,
+      "LL": -2723.420811068111,
+      "q": 15,
+      "AIC": 5476.841622136222,
+      "BIC": 5550.502883955652,
+      "aBIC": 5502.8619569884,
+      "best_replicates": 100,
+      "starts": 100,
+      "iterations": 322,
+      "min_class": 0.4065583316116,
+      "entropy": 0.675114893934
+    },
+    {
+      "K": 3,
+      "LL": -2676.553803935259,
+      "q": 23,
+      "AIC": 5399.107607870517,
+      "BIC": 5512.054875993642,
+      "aBIC": 5439.005454643858,
+      "best_replicates": 100,
+      "starts": 100,
+      "iterations": 322,
+      "min_class": 0.1226741108326,
+      "entropy": 0.6757540591248
+    },
+    {
+      "K": 4,
+      "LL": -2665.935357188881,
+      "q": 31,
+      "AIC": 5393.870714377762,
+      "BIC": 5546.103988804582,
+      "aBIC": 5447.646073072264,
+      "best_replicates": 74,
+      "starts": 100,
+      "iterations": 1952,
+      "min_class": 0.06729386075749,
+      "entropy": 0.707946389214
+    },
+    {
+      "K": 5,
+      "LL": -2658.401127042036,
+      "q": 39,
+      "AIC": 5394.802254084073,
+      "BIC": 5586.321534814589,
+      "aBIC": 5462.455124699737,
+      "best_replicates": 11,
+      "starts": 100,
+      "iterations": 2076,
+      "min_class": 0.02360427511832,
+      "entropy": 0.7433327158017
+    }
+  ],
+  "profiles": [
+    {
+      "indicator": "injury",
+      "category": 1,
+      "class": "C1",
+      "probability": 0.5621707480181
+    },
+    {
+      "indicator": "injury",
+      "category": 1,
+      "class": "C2",
+      "probability": 0.03900368771752
+    },
+    {
+      "indicator": "injury",
+      "category": 1,
+      "class": "C3",
+      "probability": 0.6016971050885
+    },
+    {
+      "indicator": "injury",
+      "category": 2,
+      "class": "C1",
+      "probability": 0.2125774553421
+    },
+    {
+      "indicator": "injury",
+      "category": 2,
+      "class": "C2",
+      "probability": 0.9109367066823
+    },
+    {
+      "indicator": "injury",
+      "category": 2,
+      "class": "C3",
+      "probability": 0.08818503919668
+    },
+    {
+      "indicator": "injury",
+      "category": 3,
+      "class": "C1",
+      "probability": 0.1185912494612
+    },
+    {
+      "indicator": "injury",
+      "category": 3,
+      "class": "C2",
+      "probability": 0.04063536574187
+    },
+    {
+      "indicator": "injury",
+      "category": 3,
+      "class": "C3",
+      "probability": 0.1859586641881
+    },
+    {
+      "indicator": "injury",
+      "category": 4,
+      "class": "C1",
+      "probability": 0.1066605471786
+    },
+    {
+      "indicator": "injury",
+      "category": 4,
+      "class": "C2",
+      "probability": 0.009424239858273
+    },
+    {
+      "indicator": "injury",
+      "category": 4,
+      "class": "C3",
+      "probability": 0.1241591915267
+    },
+    {
+      "indicator": "penalty",
+      "category": 1,
+      "class": "C1",
+      "probability": 0.4212654932737
+    },
+    {
+      "indicator": "penalty",
+      "category": 1,
+      "class": "C2",
+      "probability": 0.4380254544328
+    },
+    {
+      "indicator": "penalty",
+      "category": 1,
+      "class": "C3",
+      "probability": 0.06424781720272
+    },
+    {
+      "indicator": "penalty",
+      "category": 2,
+      "class": "C1",
+      "probability": 0.237025941135
+    },
+    {
+      "indicator": "penalty",
+      "category": 2,
+      "class": "C2",
+      "probability": 0.4974245579391
+    },
+    {
+      "indicator": "penalty",
+      "category": 2,
+      "class": "C3",
+      "probability": 0.9357521749823
+    },
+    {
+      "indicator": "penalty",
+      "category": 3,
+      "class": "C1",
+      "probability": 0.3417085655913
+    },
+    {
+      "indicator": "penalty",
+      "category": 3,
+      "class": "C2",
+      "probability": 0.06454998762804
+    },
+    {
+      "indicator": "penalty",
+      "category": 3,
+      "class": "C3",
+      "probability": 7.815016727905e-09
+    },
+    {
+      "indicator": "collision",
+      "category": 1,
+      "class": "C1",
+      "probability": 0.1883378893257
+    },
+    {
+      "indicator": "collision",
+      "category": 1,
+      "class": "C2",
+      "probability": 0.8527290466772
+    },
+    {
+      "indicator": "collision",
+      "category": 1,
+      "class": "C3",
+      "probability": 0.5506158935893
+    },
+    {
+      "indicator": "collision",
+      "category": 2,
+      "class": "C1",
+      "probability": 0.8116621106743
+    },
+    {
+      "indicator": "collision",
+      "category": 2,
+      "class": "C2",
+      "probability": 0.1472709533228
+    },
+    {
+      "indicator": "collision",
+      "category": 2,
+      "class": "C3",
+      "probability": 0.4493841064107
+    },
+    {
+      "indicator": "emotion",
+      "category": 1,
+      "class": "C1",
+      "probability": 0.5088199409311
+    },
+    {
+      "indicator": "emotion",
+      "category": 1,
+      "class": "C2",
+      "probability": 5.691439778019e-74
+    },
+    {
+      "indicator": "emotion",
+      "category": 1,
+      "class": "C3",
+      "probability": 0.03463883238549
+    },
+    {
+      "indicator": "emotion",
+      "category": 2,
+      "class": "C1",
+      "probability": 0.4911800590689
+    },
+    {
+      "indicator": "emotion",
+      "category": 2,
+      "class": "C2",
+      "probability": 1
+    },
+    {
+      "indicator": "emotion",
+      "category": 2,
+      "class": "C3",
+      "probability": 0.9653611676145
+    }
+  ],
+  "proportion": [0.1226741108326, 0.4630319851502, 0.4142939040171],
+  "entropy": 0.6757540591248
+}
